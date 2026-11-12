@@ -9,3 +9,6 @@ Calculates your monthy salary
 6. your hourly rate
 7. hours wokred
 8. and still your monthy salary
+
+Code reviewed by Stefan Drenth
+altered basepay to basePay, only difference between my code and yours is you used a if-else statement to deny users from invalid entries
