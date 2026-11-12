@@ -5,12 +5,12 @@ class Employee{
     }
 }
 class FullTimeEmployee extends Employee {
-    double basepay;
+    double basePay; //Changed basepay to basePay
     double bonus;
 
     @Override
     public double totalsalary() {
-            return basepay + bonus;
+            return basePay + bonus;
         }
     }
     class PartTimeEmployee extends Employee {
@@ -33,10 +33,10 @@ public class Main {
         if (employeeType.equalsIgnoreCase("Full-time")){
             FullTimeEmployee employee = new FullTimeEmployee();
             System.out.println("Enter Base Pay: ");
-            employee.basepay = input.nextDouble();
+            employee.basePay = input.nextDouble();
             System.out.println("Enter bonus: ");
             employee.bonus = input.nextDouble();
-            System.out.println("Monthly Salary:  $"+employee.totalsalary());
+            System.out.println("Monthly Salary:  $" + employee.totalsalary());
         } else if (employeeType.equalsIgnoreCase("Part-time")){
             PartTimeEmployee employee = new PartTimeEmployee();
             System.out.println("Enter hourly rate: ");
@@ -47,6 +47,6 @@ public class Main {
         } else {
             System.out.println(" Invalid employee type.");
         }
-        input.close();
+        input.close(); //This is for the Scanner object
     }
 }
