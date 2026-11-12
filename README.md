@@ -3,7 +3,7 @@ Calculates your monthy salary
 
 1. Enter your Employee Type, depending on your answer you will answer the questions
 2. base monthy pay
-3. bounus
+3. bonus
 4. then itll tell you your monthy salary
 5. or
 6. your hourly rate
